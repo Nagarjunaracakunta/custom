@@ -16,6 +16,8 @@
 		7BD1D0591EBB9B0500714ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BD1D0571EBB9B0500714ECF /* LaunchScreen.storyboard */; };
 		7BD1D0641EBB9B0500714ECF /* CustomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD1D0631EBB9B0500714ECF /* CustomTests.m */; };
 		7BD1D06F1EBB9B0500714ECF /* CustomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD1D06E1EBB9B0500714ECF /* CustomUITests.m */; };
+		7BD1D07E1EBB9B8100714ECF /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD1D07D1EBB9B8100714ECF /* SimpleTableCell.m */; };
+		7BD1D0801EBB9E2D00714ECF /* Button_Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BD1D07F1EBB9E2D00714ECF /* Button_Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		7BD1D06A1EBB9B0500714ECF /* CustomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BD1D06E1EBB9B0500714ECF /* CustomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomUITests.m; sourceTree = "<group>"; };
 		7BD1D0701EBB9B0500714ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BD1D07C1EBB9B8100714ECF /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		7BD1D07D1EBB9B8100714ECF /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
+		7BD1D07F1EBB9E2D00714ECF /* Button_Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,7 @@
 			children = (
 				7BD1D0491EBB9B0500714ECF /* AppDelegate.h */,
 				7BD1D04A1EBB9B0500714ECF /* AppDelegate.m */,
+				7BD1D07F1EBB9E2D00714ECF /* Button_Default.png */,
 				7BD1D04C1EBB9B0500714ECF /* ViewController.h */,
 				7BD1D04D1EBB9B0500714ECF /* ViewController.m */,
 				7BD1D04F1EBB9B0500714ECF /* Main.storyboard */,
@@ -113,6 +119,8 @@
 				7BD1D05A1EBB9B0500714ECF /* Info.plist */,
 				7BD1D0521EBB9B0500714ECF /* Custom.xcdatamodeld */,
 				7BD1D0461EBB9B0500714ECF /* Supporting Files */,
+				7BD1D07C1EBB9B8100714ECF /* SimpleTableCell.h */,
+				7BD1D07D1EBB9B8100714ECF /* SimpleTableCell.m */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -253,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BD1D0591EBB9B0500714ECF /* LaunchScreen.storyboard in Resources */,
+				7BD1D0801EBB9E2D00714ECF /* Button_Default.png in Resources */,
 				7BD1D0561EBB9B0500714ECF /* Assets.xcassets in Resources */,
 				7BD1D0511EBB9B0500714ECF /* Main.storyboard in Resources */,
 			);
@@ -283,6 +292,7 @@
 				7BD1D04B1EBB9B0500714ECF /* AppDelegate.m in Sources */,
 				7BD1D0541EBB9B0500714ECF /* Custom.xcdatamodeld in Sources */,
 				7BD1D0481EBB9B0500714ECF /* main.m in Sources */,
+				7BD1D07E1EBB9B8100714ECF /* SimpleTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
